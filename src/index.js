@@ -1,4 +1,3 @@
-
 const express = require("express");
 require("dotenv").config();
 const helmet = require("helmet");
@@ -78,4 +77,5 @@ app.use((req, res) => {
 app.get("/", (req, res) => {
   res.send("Welcome to ticketing system");
 });
+module.exports = app;
 // app.listen(port, () => console.log(`Ticketing Listen To Port ${port}`));

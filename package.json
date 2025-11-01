@@ -2,10 +2,10 @@
   "name": "ticketing-backend",
   "version": "1.0.0",
   "description": "Backend for Ticketing System",
-  "main": "source/app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node source/index.js",
-    "dev": "nodemon source/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

@@ -2,7 +2,7 @@
   "name": "ticketing-backend",
   "version": "1.0.0",
   "description": "Backend for Ticketing System",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
